@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5f7a"/>
+      <stop offset="100%" style="stop-color:#2980b9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: Building/Engineering symbol -->
+  <g transform="translate(5, 5)">
+    <!-- Hexagon background -->
+    <path d="M25 2 L43 12 L43 32 L25 42 L7 32 L7 12 Z" fill="none" stroke="url(#blueGrad)" stroke-width="2"/>
+
+    <!-- Building inside -->
+    <path d="M15 34 L15 18 L25 12 L35 18 L35 34" fill="none" stroke="url(#blueGrad)" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="25" y1="12" x2="25" y2="34" stroke="url(#blueGrad)" stroke-width="2"/>
+
+    <!-- 3D cube element (BIM reference) -->
+    <path d="M28 22 L36 26 L36 32 L28 28 L20 32 L20 26 Z" fill="#e67e22" opacity="0.8"/>
+    <path d="M28 22 L28 28" stroke="#e67e22" stroke-width="1.5"/>
+  </g>
+
+  <!-- Text: MultiCiv -->
+  <text x="55" y="32" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="700" fill="#1a5f7a">Multi</text>
+  <text x="102" y="32" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="700" fill="#e67e22">Civ</text>
+
+  <!-- Text: Engineering -->
+  <text x="55" y="48" font-family="Montserrat, Arial, sans-serif" font-size="11" font-weight="500" fill="#64748b" letter-spacing="3">Engineering</text>
+</svg>
